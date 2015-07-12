@@ -1,6 +1,9 @@
 # Alpine
 Tumblr theme! I've been working on this for ±3 years now, stashing it on GitHub for issues and stuff.
 
+Alpine looks something like this:
+![screenshot](https://raw.github.com/sophstad/alpine/repo-resources/screenshot.png)
+
 ## Content Types
 ### Photosets
 Responsive photosets had been the bane of my existence since day one. For most of Alpine's existence, I was using a hacky method that simply took the raw images from the photosets and arranged them using floats and stuff. However, it wouldn't allow you to click on the photos to enlarge, and was a bit slow. But now, thanks to the new `{Photoset}` tag, they're responsive! (Previously, photosets looked like `{Photoset-700}` with a fixed dimension.) This is exciting stuff!
