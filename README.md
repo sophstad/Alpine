@@ -2,7 +2,7 @@
 Tumblr theme! I've been working on this for ±3 years now, stashing it on GitHub for issues and stuff.
 
 Alpine looks something like this:
-![screenshot](https://raw.github.com/sophstad/alpine/repo-resources/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/sophstad/alpine/master/repo-resources/screenshot.png)
 
 ## Content Types
 ### Photosets
