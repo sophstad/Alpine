@@ -1,7 +1,7 @@
 # Alpine
 Tumblr theme! I've been working on this for ±3 years now, stashing it on GitHub for issues and stuff.
 
-Alpine looks something like this:
+Check out a live demo [here](http://hypertexts.tumblr.com). Alpine looks something like this:
 ![screenshot](https://raw.githubusercontent.com/sophstad/alpine/master/repo-resources/screenshot.png)
 
 ## Content Types
