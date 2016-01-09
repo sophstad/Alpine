@@ -9,6 +9,9 @@ Responsive photosets had been the bane of my existence since day one. For most o
 ### Video
 I've worked hard to make video as close to responsive as possible. This works better for certain video aspects than others, but it works.
 
+## Customization
+Alpine allows for some visual customization, allowing users to set background images and accent colors.
+
 ## CSS
 Tumblr CSS goes at the beginning of the file (or inline). It sucks.
 
