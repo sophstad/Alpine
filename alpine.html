@@ -200,9 +200,10 @@
 
       /* Responsive Videos */
       .videoWrapper {
+        height: 0;
+        max-width: 100%;
         position: relative;
         padding-bottom: 56.25%;
-        height: 0;
       }
       .videoWrapper iframe {
         position: absolute;
@@ -210,6 +211,7 @@
         height: 100%;
         left: 0;
         top: 0;
+        max-width: 100%;
       }
 
       /* Page Navigation */
@@ -362,79 +364,82 @@
       }
 
       /* iPhone Portrait */
-        @media screen and (max-width: 650px) {
-          .grid {
-            margin-left: 0;
-            width: 100%;
-          }
-          .unit {
-            width: auto;
-            margin-left: 0;
-            display: block;
-          }
-          .one-of-three {
-            position: relative;
-          }
+      @media screen and (max-width: 650px) {
+        .grid {
+          margin-left: 0;
+          width: 100%;
         }
+        .unit {
+          width: auto;
+          margin-left: 0;
+          display: block;
+        }
+        .one-of-three {
+          position: relative;
+        }
+        .one-of-three, .two-of-three {
+          width: 100%;
+        }
+      }
 
-        @media screen and (max-width: 320px) {
-          body {
-            background-color: #ffffff;
-            font-size: 20px;
-            line-height: 160%;
-          }
-         /* .post {
-            width: 100%;
-            overflow: hidden;
-            text-overflow: ellipsis;
-          }*/
-          .container {
-            width: 94%;
-            padding: 0 4%;
-          }
-          #border-top {
-            height: 1em;
-          }
-          h1 {
-            font-size: 200%;
-            padding-top: 1.5em;
-          }
-          h5 {
-            color: #444444;
-          }
-          iframe#tumblr_controls {
-            top: 0.75em !important;
-            right: 0 !important; 
-            position: fixed !important;
-          }
-          .photo img {
-            width: auto;
-            max-width: 100%;
-          }
+      @media screen and (max-width: 320px) {
+        body {
+          background-color: #ffffff;
+          font-size: 20px;
+          line-height: 160%;
         }
+       /* .post {
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }*/
+        .container {
+          width: 94%;
+          padding: 0 4%;
+        }
+        #border-top {
+          height: 1em;
+        }
+        h1 {
+          font-size: 200%;
+          padding-top: 1.5em;
+        }
+        h5 {
+          color: #444444;
+        }
+        iframe#tumblr_controls {
+          top: 0.75em !important;
+          right: 0 !important; 
+          position: fixed !important;
+        }
+        .photo img {
+          width: auto;
+          max-width: 100%;
+        }
+      }
 
       /* iPad Portrait */
-        @media screen and (min-width: 480px) and (max-width: 875px) {
-          body {
-            font-size: 20px;
-            line-height: 160%;
-          }
-          .container {
-            height: 100%;
-            width: 80%;
-            padding: 0 10%;
-          }
-          .post {
-            width: 100%;
-            overflow: hidden;
-            text-overflow: ellipsis;
-          }
+      @media screen and (min-width: 480px) and (max-width: 875px) {
+        body {
+          font-size: 20px;
+          line-height: 160%;
         }
+        .container {
+          height: 100%;
+          width: 80%;
+          padding: 0 10%;
+        }
+        .post {
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
 
       /* Desktops and Laptops */
-        @media screen and (min-width : 1224px) {
-          
-        }
+      @media screen and (min-width : 1224px) {
+        
+      }
       
     </style>
 
